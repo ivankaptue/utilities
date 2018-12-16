@@ -2,6 +2,12 @@
 
 Il s'agit ici, de la configuration webpack pour servir les assets de mes projets.
 
+# Avantage
+* Installation de toutes les dépendances de son projet via `npm`.
+* Utilisation de la syntaxe `ES2015` dans ses fichiers js.
+* Minification des `js` et `css` en mode production.
+* Possibilité de minifier les images en configurant `img-loader`.
+
 # Utilisation
 
 1. Créer dans un dossier ``web`` qui sera la racine de la configuration ``webpack``.
