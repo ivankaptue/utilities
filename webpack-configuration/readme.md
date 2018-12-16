@@ -1,10 +1,12 @@
 # Description
 
 Il s'agit ici, de la configuration webpack pour servir les assets de mes projets.
+Les librairies pré-configurées sont: `bootstrap`, `font-awesome`, `jquery`, `popper.js`.
 
-# Avantage
+# Avantages
 * Installation de toutes les dépendances de son projet via `npm`.
 * Utilisation de la syntaxe `ES2015` dans ses fichiers js.
+* Utilisation de `sass` pour son `css`.
 * Minification des `js` et `css` en mode production.
 * Possibilité de minifier les images en configurant `img-loader`.
 
