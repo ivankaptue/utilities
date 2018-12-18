@@ -12,12 +12,26 @@ Les librairies pré-configurées sont: `bootstrap`, `font-awesome`, `jquery`, `p
 
 # Utilisation
 
-1. Créer dans un dossier ``web`` qui sera la racine de la configuration ``webpack``.
-2. Copier les fichiers  ``package.json``, ``package-lock.json``, ``webpack.config.js``, ``.babelrc`` dans le dossier précédemment crée.
-3. Lancer la commande ``npm install`` pour installer toutes les dépendances déclarées dans le fichier package.json.
-4. Créer les fichiers ``assets/src/css/style.scss``, ``assets/src/js/app.js`` dans le dossier `web`. 
+1. Cloner le projet ou Télécharger le .zip
+2. copier le dossier `webpack-configuration` dans le repertoire qui contiendra les assets
+3. Se déplacer dans le dossier `webpack-configuration`
+4. Lancer la commande `npm install` pour installer les dépendances
+5. Renommer le dossier webpack-configuration à votre convenance
+
+Dans le dossier assets, il y'a le dossier `src` qui est dossier des sources et le dossier `public` qui est le dossier dans lequel les assets
+sont compilés. 
+
+**NB:** Ne pas mettre du contenu dans le dossier `public` car il est supprimé lors de la compilation des assets en environement de production.
 
 # Compilation
 * `npm run dev` pour lancer la compilation des assets en mode développement. (Ceci pourra aider lors du deboggage)
 * `npm run dev-watch` pour lancer la compilation des assets en mode développement et en mode `watch`.
 * `npm run prod` pour lancer la compilation des assets en mode production (les assets sont alors minifiés).
+
+# Avertissements
+Sous windows, le `NODE_ENV` pose parfois des problèmes. Il faut dans ce cas installer le package `win-node-env`, grace à la commande
+```
+npm install -g win-node-env
+```
+
+Il faudra aussi ajouter le dossier `node_modules` dans le fichier `.gitignore` pour les utilisateurs de `git` ;).

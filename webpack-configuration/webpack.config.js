@@ -20,7 +20,7 @@ if (!dev) {
         options: {
             plugins: (loader) => [
                 require('autoprefixer')({
-                    browsers: ['last 2 versions', 'ie > 8']
+                    browsers: ['last 1 versions', 'not dead', '>0.2%']
                 })
             ]
         }
