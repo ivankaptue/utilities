@@ -25,8 +25,8 @@ sont compilés.
 
 # Compilation
 * `npm run dev` pour lancer la compilation des assets en mode développement. (Ceci pourra aider lors du deboggage)
-* `npm run dev-watch` pour lancer la compilation des assets en mode développement et en mode `watch`.
-* `npm run prod` pour lancer la compilation des assets en mode production (les assets sont alors minifiés).
+* `npm run watch` pour lancer la compilation des assets en mode développement et en mode `watch`.
+* `npm run build` pour lancer la compilation des assets en mode production (les assets sont alors minifiés).
 
 # Avertissements
 Sous windows, le `NODE_ENV` pose parfois des problèmes. Il faut dans ce cas installer le package `win-node-env`, grace à la commande

@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "NODE_ENV=dev webpack --mode development",
-    "dev-watch": "NODE_ENV=dev webpack --mode development --watch",
-    "prod": "webpack --mode production"
+    "watch": "NODE_ENV=dev webpack --mode development --watch",
+    "build": "webpack --mode production"
   },
   "author": "Ivan Kaptue",
   "license": "MIT",
